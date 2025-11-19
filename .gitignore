@@ -1,0 +1,77 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Binary Python artifacts
+*.so
+*.pyd
+*.dll
+
+# Logs
+*.log
+
+# ==========================================
+# Streamlit
+# ==========================================
+# Cache files
+.streamlit/
+**/*_cache/
+**/.streamlit/
+
+# Streamlit static ephemeral files
+**/.streamlit/credentials.toml
+**/.streamlit/secrets.toml
+
+# ==========================================
+# FAISS / Embeddings
+# ==========================================
+
+*.faiss
+*.index
+*.npy
+*.npz
+
+# Model files
+models/
+*.bin
+*.pt
+*.pth
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Environment / Keys
+# ==========================================
+
+*.env
+*.key
+*.secret
+openai_api_key.txt
+
+# ==========================================
+# Build / Packaging
+# ==========================================
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Other Editor Files
+# ==========================================
+.vscode/
+.idea/
